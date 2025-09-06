@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOI-TECCH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .text-shadow-md {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <h1 class="ml-2 text-2xl font-bold text-gray-800">MOI-TECCH</h1>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="hidden md:flex space-x-6 items-center">
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Home</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Moitech App</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Contact Us</a>
+                <a href="#" class="text-blue-600 hover:text-blue-700 font-medium px-4 py-2 rounded-full border border-blue-600">Login</a>
+                <a href="#" class="bg-blue-600 text-white font-medium px-4 py-2 rounded-full hover:bg-blue-700">Register</a>
+                <div class="flex items-center space-x-2">
+                    <span class="text-gray-600">தமிழ்</span>
+                    <i class="fas fa-globe text-gray-600"></i>
+                </div>
+            </nav>
+
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button class="md:hidden text-gray-600 focus:outline-none">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section with Background Image -->
+    <section class="relative bg-center bg-cover h-96" style="background-image: url('https://placehold.co/1920x500/E0E0E0/5B5B5B?text=Header+Image');">
+        <div class="absolute inset-0 bg-black opacity-20"></div>
+        <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
+            <h2 class="text-5xl font-bold text-shadow-md">MOI-TECCH VALAIYADI VALAIYADI...</h2>
+            <p class="mt-4 text-xl text-shadow-md">Connecting tradition with technology</p>
+        </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section class="py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-800">Objectives of Moitech</h2>
+            <div class="h-1 w-24 bg-blue-600 mx-auto mt-4 rounded-full"></div>
+            <p class="mt-4 text-gray-600 text-lg">
+                Do moi !!! Let's get moi !!!<br>
+                Preserve our culture in a modern way.<br>
+                Our moi-tech towards the new<br>
+                dimension of modern culture.
+            </p>
+
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                <!-- Card 1: Moi @ Computer -->
+                <div class="flex flex-col items-center">
+                    <div class="w-48 h-48 bg-gray-200 rounded-full flex items-center justify-center overflow-hidden">
+                        <!-- Placeholder for "Moi @ Computer" image -->
+                         <img src="https://placehold.co/192x192/E0E0E0/5B5B5B?text=Moi+@+Computer" alt="Moi @ Computer" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="mt-4 text-lg font-bold text-gray-800">Moi @ Computer</h3>
+                </div>
+
+                <!-- Card 2: Renewing Old Moi Notes -->
+                <div class="flex flex-col items-center">
+                    <div class="w-48 h-48 bg-gray-200 rounded-full flex items-center justify-center overflow-hidden">
+                        <!-- Placeholder for "Renewing Old Moi Notes" image -->
+                        <img src="https://placehold.co/192x192/E0E0E0/5B5B5B?text=Renewing+Old+Moi+Notes" alt="Renewing Old Moi Notes" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="mt-4 text-lg font-bold text-gray-800">Renewing Old Moi Notes</h3>
+                </div>
+
+                <!-- Card 3: Moi In Your Hands -->
+                <div class="flex flex-col items-center">
+                    <div class="w-48 h-48 bg-gray-200 rounded-full flex items-center justify-center overflow-hidden">
+                        <!-- Placeholder for "Moi In Your Hands" image -->
+                        <img src="https://placehold.co/192x192/E0E0E0/5B5B5B?text=Moi+In+Your+Hands" alt="Moi In Your Hands" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="mt-4 text-lg font-bold text-gray-800">Moi In Your Hands</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOI-TECCH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .text-shadow-md {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <h1 class="ml-2 text-2xl font-bold text-gray-800">MOI-TECCH</h1>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="hidden md:flex space-x-6 items-center">
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Home</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Moitech App</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Contact Us</a>
+                <a href="#" class="text-blue-600 hover:text-blue-700 font-medium px-4 py-2 rounded-full border border-blue-600">Login</a>
+                <a href="#" class="bg-blue-600 text-white font-medium px-4 py-2 rounded-full hover:bg-blue-700">Register</a>
+                <div class="flex items-center space-x-2">
+                    <span class="text-gray-600">தமிழ்</span>
+                    <i class="fas fa-globe text-gray-600"></i>
+                </div>
+            </nav>
+
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button class="md:hidden text-gray-600 focus:outline-none">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Special Features Section -->
+    <section class="py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-800">Moi-Tecch Special Features</h2>
+            <div class="h-1 w-24 bg-blue-600 mx-auto mt-4 rounded-full"></div>
+
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+                <!-- Feature Card 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                    <i class="fas fa-cloud-upload-alt text-4xl text-blue-600"></i>
+                    <h3 class="mt-4 font-bold text-gray-800">Manage Moi Accounts in Online</h3>
+                </div>
+
+                <!-- Feature Card 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                    <i class="fas fa-database text-4xl text-blue-600"></i>
+                    <h3 class="mt-4 font-bold text-gray-800">Facility to Add or Update MOI's</h3>
+                </div>
+
+                <!-- Feature Card 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                    <i class="fas fa-user-edit text-4xl text-blue-600"></i>
+                    <h3 class="mt-4 font-bold text-gray-800">Details of The Individual's MOI</h3>
+                </div>
+
+                <!-- Feature Card 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                    <i class="fas fa-sms text-4xl text-blue-600"></i>
+                    <h3 class="mt-4 font-bold text-gray-800">SMS Reminder of The Events</h3>
+                </div>
+
+                <!-- Feature Card 5 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                    <i class="fas fa-receipt text-4xl text-blue-600"></i>
+                    <h3 class="mt-4 font-bold text-gray-800">Instant Computer Receipt for MOI</h3>
+                </div>
+
+                <!-- Feature Card 6 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                    <i class="fas fa-chart-pie text-4xl text-blue-600"></i>
+                    <h3 class="mt-4 font-bold text-gray-800">Analyze The Amount of MOI Giving / Received</h3>
+                </div>
+
+                <!-- Feature Card 7 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                    <i class="fas fa-calendar-alt text-4xl text-blue-600"></i>
+                    <h3 class="mt-4 font-bold text-gray-800">Details of The Past/Future Events</h3>
+                </div>
+
+                <!-- Feature Card 8 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                    <i class="fas fa-calculator text-4xl text-blue-600"></i>
+                    <h3 class="mt-4 font-bold text-gray-800">Accurate MOI Calculation</h3>
+                </div>
+
+                <!-- Feature Card 9 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                    <i class="fas fa-mobile-alt text-4xl text-blue-600"></i>
+                    <h3 class="mt-4 font-bold text-gray-800">Details of The MOI in Your Mobile</h3>
+                </div>
+
+                <!-- Feature Card 10 -->
+                <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                    <i class="fas fa-sort-alpha-down text-4xl text-blue-600"></i>
+                    <h3 class="mt-4 font-bold text-gray-800">Moi According to The City/Town Name</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOI-TECCH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <h1 class="ml-2 text-2xl font-bold text-gray-800">MOI-TECCH</h1>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="hidden md:flex space-x-6 items-center">
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Home</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Moitech App</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Contact Us</a>
+                <a href="#" class="text-blue-600 hover:text-blue-700 font-medium px-4 py-2 rounded-full border border-blue-600">Login</a>
+                <a href="#" class="bg-blue-600 text-white font-medium px-4 py-2 rounded-full hover:bg-blue-700">Register</a>
+                <div class="flex items-center space-x-2">
+                    <span class="text-gray-600">தமிழ்</span>
+                    <i class="fas fa-globe text-gray-600"></i>
+                </div>
+            </nav>
+
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button class="md:hidden text-gray-600 focus:outline-none">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Events Overview Section -->
+    <section class="py-20 px-4">
+        <div class="container mx-auto text-center">
+            <div class="flex items-center justify-center space-x-4 mb-4">
+                <div class="h-10 w-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                    </svg>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-800">Events Overview</h2>
+            </div>
+            <div class="h-1 w-24 bg-blue-600 mx-auto mt-4 rounded-full"></div>
+
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Image Card 1: Wedding Ceremony -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/600x400/E0E0E0/5B5B5B?text=Wedding+Ceremony" alt="Wedding Ceremony" class="w-full h-auto object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-800">Wedding Ceremony</h3>
+                    </div>
+                </div>
+
+                <!-- Image Card 2: Engagement -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/600x400/E0E0E0/5B5B5B?text=Engagement" alt="Engagement" class="w-full h-auto object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-800">Engagement</h3>
+                    </div>
+                </div>
+
+                <!-- Image Card 3: Ear Piercing Ceremony -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://placehold.co/600x400/E0E0E0/5B5B5B?text=Ear+Piercing+Ceremony" alt="Ear Piercing Ceremony" class="w-full h-auto object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="font-bold text-gray-800">Ear Piercing Ceremony</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOI-TECCH</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header Section (replicated for context) -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <h1 class="ml-2 text-2xl font-bold text-gray-800">MOI-TECCH</h1>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="hidden md:flex space-x-6 items-center">
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Home</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Moitech App</a>
+                <a href="#" class="text-gray-600 hover:text-blue-600 font-medium">Contact Us</a>
+                <a href="#" class="text-blue-600 hover:text-blue-700 font-medium px-4 py-2 rounded-full border border-blue-600">Login</a>
+                <a href="#" class="bg-blue-600 text-white font-medium px-4 py-2 rounded-full hover:bg-blue-700">Register</a>
+                <div class="flex items-center space-x-2">
+                    <span class="text-gray-600">தமிழ்</span>
+                    <i class="fas fa-globe text-gray-600"></i>
+                </div>
+            </nav>
+
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button class="md:hidden text-gray-600 focus:outline-none">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-gray-300 py-12 px-4">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+            <!-- Company Section -->
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Company</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">About Us</a></li>
+                    <li><a href="#" class="hover:underline">Moitech App</a></li>
+                    <li><a href="#" class="hover:underline">Contact Us</a></li>
+                    <li><a href="#" class="hover:underline">Register</a></li>
+                    <li><a href="#" class="hover:underline">Login</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Us Section -->
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Contact us</h3>
+                <ul class="space-y-2">
+                    <li class="flex items-center space-x-2">
+                        <i class="fas fa-map-marker-alt text-white"></i>
+                        <span>MOITECH<br>123 Fictional Road,<br>Cityville, State, 54321<br>United States</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <i class="fas fa-phone-alt text-white"></i>
+                        <span>+91-96888 80990</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <i class="fas fa-phone-alt text-white"></i>
+                        <span>+91-74484 30990</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <i class="fas fa-envelope text-white"></i>
+                        <span>support@moitech.in</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Download App Section -->
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Download Moitech Android App</h3>
+                <a href="#" class="inline-block mb-4">
+                    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" class="h-12">
+                </a>
+                <h3 class="text-xl font-bold text-white mb-4">Connect with us</h3>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-facebook-f text-2xl"></i></a>
+                    <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-twitter text-2xl"></i></a>
+                    <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-instagram text-2xl"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto text-center mt-8 text-sm text-gray-400 border-t border-gray-700 pt-8">
+            <p>Copyright @ 2025 - Moitech | All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
